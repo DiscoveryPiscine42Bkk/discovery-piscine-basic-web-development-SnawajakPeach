@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax-block {
+    min-height: 300px; 
+
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img1 {
+    background-image: url(https://a.pinatafarm.com/720x493/44e874c625/laughing-wolf.jpg); 
+}
+
+.bg-img2 {
+    background-image: url(https://preview.redd.it/who-made-this-image-please-the-wolf-in-this-pic-has-horns-v0-nvbulpj75pza1.png?width=640&crop=smart&auto=webp&s=7ce5ebb4f5c9e3c5a0f455b9c743391d8236ae5a); 
+}
+
+.static-block {
+    height: 200px; 
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    font-size: 10px;
+    background-color: white; 
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.static-block .center-text {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white; }
